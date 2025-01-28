@@ -13,7 +13,6 @@ import jakarta.validation.Valid;
 
 @Controller
 public class ItemController {
-
     @GetMapping("/")
     public String home() {
         return "index"; // This maps to src/main/resources/templates/index.html
